@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Website</title>
+    <style>
+        body {
+            font-family: cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url('static/background.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+    /* Mărește opacitatea fundalului pentru a face textul mai vizibil */
+    opacity: 0.8;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        h1, h4 {
+            font-family: Arial, sans-serif; /* Schimbarea fontului pentru h1 și h2 */
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 50px;
+        }
+
+        .link-spacing {
+            margin-top: 10px;
+            font-size: 18px;
+            color: gray;
+            text-decoration: none;
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+
+        .image-container div {
+            margin: 10px;
+        }
+
+        .image-container img {
+            width: 300px;
+            height: 150px;
+            object-fit: cover; /* Asigură că imaginile ocupă aceeași lățime și înălțime */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Python App Portfolio!</h1>
+        <h4>Dive into the world of Python coding with apps crafted by Eduard Puscau during the exciting journey of learning to code.<br> Explore beginner-friendly programs, engaging games, and practical automation tools. Each app showcases creativity,<br>innovation, and a passion for coding.Start exploring and discover the magic of Python today!</h4>
+        <br>
+        <h4>Explore my Python Creations:</h4>
+        <div class="image-container">
+            <div>
+                <h3>To do App</h3>
+                <p>A web app to help you focus on<br>creating and completing tasks.</p>
+                <img src="static/1.png" alt="To do App">
+                <br>
+                <a href="https://github.com/Eddym31/my-todo-app.git" class="link-spacing">Source code</a>
+            </div>
+            <div>
+                <h3>Invoice Generation</h3>
+                <p>An app that generates an invoice pdf file.</p>
+                <img src="static/3.png" alt="Invoice Generation App Screenshot">
+                <br>
+                <a href="https://github.com/Eddym31/Invoice-generation.git" class="link-spacing">Source code</a>
+            </div>
+            <div>
+                <h3>Web Scraping App</h3>
+                <p>A simple web scraping app.</p>
+                <img src="static/16.png" alt="Web Scraping">
+                <br>
+                <a href="https://github.com/Eddym31/web_scraping.git" class="link-spacing">Source code</a>
+            </div>
+            <div>
+                <h3>Job Application Form</h3>
+                <p>A simple web app for job application.</p>
+                <img src="static/12.png" alt="Job Application Form">
+                <br>
+                <a href="https://github.com/Eddym31/job-application-from.git" class="link-spacing">Source code</a>
+            </div>
+            <div>
+                <h3>Weather Forecast</h3>
+                <p>A simple weather forecast app.</p>
+                <img src="static/12.png" alt="Weather Forecast">
+                <br>
+                <a href="https://github.com/Eddym31/weather-forecast-data-app.git" class="link-spacing">Source code</a>
+            </div>
+            <div>
+                <h3>Game of life</h3>
+                <p> It works on a 2D grid representing cells,<br>where each cell can be alive or dead.<br>Every step, rules will apply on each cell,<br>living or dead, to determine their<br>state at the next cycle.</p>
+                <img src="static/12.png" alt="Game of Life">
+                <br>
+                <a href=https://github.com/Eddym31/Game-of-Life.git" class="link-spacing">Source code</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
