@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, send_file
 
 app = Flask(__name__)
 
@@ -8,4 +8,11 @@ def index():
     return render_template('index.html')
 
 
-app.run(debug=True, port=5001)
+@app.route('/download')
+def download():
+    path = 'static/CV.pdf'
+    return send_file(path, as_attachment=True)
+
+
+if __name__ == '__main__':
+    app.run(debug=True, port=5000)
